@@ -1,0 +1,37 @@
+body {
+  background-color: #fffaf0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #8b4513;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: #a0522d;
+}
+
+h3 {
+  color: #d2691e;
+  margin-left: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #a0522d;
+}
