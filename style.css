@@ -24,14 +24,13 @@ h3 {
   margin-left: 20px;
 }
 
-.gallery img {
-  width: 300px;
-  margin: 10px;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+img {
+  width: 150px;
+  margin: 7px;
+  border-radius: 14px;
+  transition: transform 0.3s;
 }
 
-.gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px #a0522d;
+img:hover {
+  transform: scale(2);
 }
